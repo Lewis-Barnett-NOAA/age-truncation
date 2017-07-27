@@ -1,5 +1,4 @@
-vioplot <- function(x,...,range=1.5,h=NULL,ylim=NULL,names=NULL, horizontal=FALSE, col="magenta", border="black", lty=1, lwd=1, rectCol="black", colMed="white", pchMed=19, at, add=FALSE, wex=1, drawRect=TRUE) 
-{
+vioplot <- function(x,...,range=1.5,h=NULL,ylim=NULL,names=NULL,horizontal=FALSE,col='magenta',border='black',lty=1,lwd=1,rectCol='black',colMed='white',pchMed=19,at,add=FALSE,wex=1,drawRect=TRUE){ 
   
   # process multiple datas
   datas <- list(x,...)
